@@ -21,6 +21,7 @@ class CustomerController extends Controller
             ->json([
                 'model' => $model,
                 'columns' => $columns
+                
             ]);
     }
 }
