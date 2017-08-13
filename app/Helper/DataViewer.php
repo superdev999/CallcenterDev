@@ -12,8 +12,7 @@ trait DataViewer {
         'greater_than' => '>',
         'less_than_or_equal_to' => '<=',
         'greater_than_or_equal_to' => '>=',
-        'in' => 'IN', 
-        'in' => 'IN', 
+        'in' => 'IN',
         'like' => 'LIKE'
     ];
 
