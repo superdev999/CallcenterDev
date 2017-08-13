@@ -13,7 +13,7 @@ trait DataViewer {
         'less_than_or_equal_to' => '<=',
         'greater_than_or_equal_to' => '>=',
         'in' => 'IN',
-        'like' => 'LIKE'
+        'like' => 'LIKE'   
     ];
 
     public function scopeSearchPaginateAndOrder($query)
