@@ -51,6 +51,7 @@ trait DataViewer {
                 }
             })
             ->paginate($request->per_page);
+            
     }
 
 }
