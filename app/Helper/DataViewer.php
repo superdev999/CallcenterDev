@@ -9,7 +9,7 @@ trait DataViewer {
         'equal' => '=',
         'not_equal' => '<>',
         'less_than' => '<',
-        'greater_than' => '>',
+        'greater_than' => '>',  
         'less_than_or_equal_to' => '<=',
         'greater_than_or_equal_to' => '>=',
         'in' => 'IN',
