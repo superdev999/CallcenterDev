@@ -10,9 +10,6 @@ class CustomerController extends Controller
     public function index()
     {
         return view('customer.index');
-    }public function index()
-    {
-        return view('customer.index');
     }
 
     public function getData()
