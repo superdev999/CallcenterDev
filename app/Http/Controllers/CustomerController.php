@@ -19,7 +19,7 @@ class CustomerController extends Controller
 
         return response()
             ->json([
-                'model' => $model,
+                'model' => $model,  
                 'columns' => $columns
             ]);
     }
