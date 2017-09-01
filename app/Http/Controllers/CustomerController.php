@@ -12,7 +12,7 @@ class CustomerController extends Controller
         return view('customer.index');
     }
 
-    public function getData()  
+    public function getData()
     {
         $model = Customer::searchPaginateAndOrder();
         $columns = Customer::$columns;
